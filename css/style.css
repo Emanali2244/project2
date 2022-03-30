@@ -1,0 +1,867 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family:"varela round", sans-serif;
+    height: 7000px;
+}
+/* ------------header-------------------------------------------- */
+
+.container{
+    width: 80%;
+    margin-left: 150px;
+    display: flex;
+}
+.header-content{
+    display: flex;
+}
+ 
+.logo{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+ .icon{
+     margin-top: 50px;
+     margin-left: 50px;
+     font-size: 26px;
+     word-spacing: 10px;
+ }  
+.spn1{
+    width: 10px;
+    height: 15px;
+    border: 1px solid rgb(109, 67, 53);
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(109, 67, 53);
+    margin-top: 15px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.spn2{
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight:bolder;
+}
+
+.list-header{
+    list-style: none;
+     margin-left: 20px; 
+    margin-top: 50px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color:rgb(109, 67, 53) ;
+}
+.header-content ul li{
+    display: inline;
+    padding: 2.5px;
+    /* font-weight: bold; */
+}
+.header-content ul li .link-item{
+    position: relative;
+    padding: 10px 19px;
+    font-weight: bold;
+}
+.drop-down{
+    position: relative;
+   
+    flex-direction:  column-reverse;
+}
+.drop-down-menu{
+    position: absolute;
+    width: 400px;
+    border:2px solid rgb(109, 67, 53);
+    background-color: white;
+    font-size: 15px;
+      transform: scale(0); 
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.5s , visibility .5s; 
+}
+.drop-down:hover .drop-down-menu{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.drop-down-menu ul li{
+    line-height: 1.7;
+}
+
+.drop-down-menu ul{
+    display: table-cell;
+    text-align: left;
+}
+.drop-down-menu ul li:first-child a{
+    display: block;
+    border-bottom: 1px dotted rgb(109, 67, 53);
+}
+.drop-down-menu ul li{
+    line-height: 1.7;
+}
+.tab1{
+    padding-left:10px;
+}
+.link-item:hover{
+    border: 2px solid rgb(109, 67, 53);
+    transition: 0.1s;
+    transform-origin: left;
+}
+
+/* ------------header------------------------------------------ */
+.background-main{
+    width: 80%;
+    height: 550px;
+    background-image: url(../img/main-banner-1-1600x700.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+}
+/* ------main------------------------- */
+.line1{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(109, 67, 53) ;
+    display: block;
+    margin-left: 750px;
+    margin-top: 15px;
+}
+.spc{
+    margin: auto;
+    margin-left: 670px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/0f8f6b48-c433-475c-bd7c-0c1781a07dbd.jpg);
+    background-size: cover;
+    float: left;
+    margin-right: 5px;
+    
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/7ff1025b-f766-4b98-8b09-88ad4f4c8971.jpg);
+    background-size: cover;
+    float: left;
+    margin: 0px 5px;
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/e0458f41-d386-47e4-b962-f0a5eb26f156.jpg);
+    background-size: cover;
+    float: left;
+    margin: 0px 5px;
+}
+.box4{
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/5fae2b27-e344-45e3-8960-5868ae6370be.jpg);
+    background-size: cover;
+    float: left;
+    margin-left: 5px;
+    display: block;
+}
+.parent{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+/* ---------------------------------------------------------------------- */
+.sp1{
+    font-size: 17px;
+    display: block;
+     margin-left: 200px;
+
+}
+.child1{
+    padding-top: 300px;
+    font-size: 14px;
+    color: rgb(243, 194, 148) ;
+}
+.pchild1{
+    font-size: 17px;
+    font-weight: bold;
+}
+.child2{
+    padding-top: 300px;
+    font-size: 14px;
+    color: rgb(243, 194, 148) ;
+}
+.pchild2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.child3{
+    padding-top: 300px;
+    font-size: 14px;
+    color: rgb(243, 194, 148) ;
+}
+.pchild3{
+    font-size: 17px;
+    font-weight: bold;
+}
+.child4{
+    padding-top: 300px;
+    font-size: 14px;
+    color: rgb(243, 194, 148) ;
+}
+.pchild4{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.pene{
+    width: 650px;
+    height: 300px;
+    border: 1px solid white;
+    float: left;
+    background-color:rgb(247, 244, 239) ;
+    line-height: 25px;
+    padding-left: 10px;
+  
+
+}
+.des{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    float:left;
+    background-image: url(../img/152367fa-eba5-43f0-b791-810b70c80cb8.jpg);
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.des:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.desc{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    float: left;
+    background-image: url(../img/f9375ccd-5292-4f97-8863-8797a8e8ca05.jpg);
+    background-size: cover;
+    margin: 0px 1px;
+    margin-right: 5px;
+}
+.desc:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.sec1{
+    width: 100%;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+.sec2{
+    margin-top: 100px;
+}
+.sec3{
+    margin-top: 300px;
+}
+
+.line2{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(109, 67, 53) ;
+    display: block;
+    float: right;
+   
+}
+
+
+.line3{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(109, 67, 53) ;
+    display: block;
+    float: right;
+    margin:0px 5px;
+
+
+}
+
+    .line4{
+        width: 60px;
+        height: 3px;
+        background-color: rgb(109, 67, 53) ;
+        display: block;
+        float: right;
+    }
+    .mar{
+        display: block;
+        padding-bottom: -20px;
+        margin-bottom: 20px;
+    }
+    .ast{
+        padding-top:-30px;
+        
+    }
+    .this{
+        margin-bottom:20px;
+    }
+
+    .fea{
+        margin: auto;
+        margin-left: 700px;
+        padding-top: 50px;
+    }
+    .line66{
+        width: 80px;
+        height: 4px;
+        background-color: rgb(109, 67, 53) ;
+        display: block;
+        margin-left: 750px;
+        margin-top: 15px;
+    }
+    .wood{
+        display: block;
+        margin-left: 600px; 
+        margin-top: 20px;
+    }
+    .box11{
+        width: 400px;
+        height: 450px;
+        background-image: url(../img/c6b33c11-28f1-4137-ad3d-8f5f79805d29.jpg);
+        background-size: cover;
+        float: left;
+        position: relative;
+        transition: all 1s;
+        z-index: 1;
+        backface-visibility: hidden;
+    
+    }
+     
+    .box22{
+        width: 400px;
+        height: 450px;
+        background-image: url(../img/1670a57b-2301-497a-bd36-bc98cfca4d20.jpg);
+        background-size: cover;
+        float: left;
+        margin:0px 45px;
+        position: relative;
+        transition: all 1s;
+        z-index: 1;
+        backface-visibility: hidden;
+    }
+    .box33{
+        width: 400px;
+        height: 450px;
+        background-image: url(../img/7488f4d7-9b2c-48f8-b8d9-5d57244cdded.jpg);
+        background-size: cover;
+        float: left; 
+        position: relative;
+        transition: all 1s;
+        z-index: 1;
+        backface-visibility: hidden;
+    }
+    /* ----------------------------------------------- */
+    .box11-overlay{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.1;
+        transition: transform 0.2s;
+
+    }
+    .box11:hover .box11-overlay{
+        opacity: 1;
+        visibility: visible;
+        transition: 1s;
+        transform: scaleX(1);
+       
+    }
+    .box11-overlay  ul li{
+        width: 40px;
+        height: 40px;
+        color: white;
+        text-align: center;
+        background-color:rgb(109, 67, 53) ;
+        display: grid;
+         padding-top: 10px; 
+        display:inline-block 
+     }
+     .box11-overlay:hover  ul li{
+        transform: scalex(1)
+     }
+     .box11-overlay  ul{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+        transform: translate(-50%,-50%);
+     }
+    
+     /* ---------------------------------- */
+     .box22-overlay{
+        width: 400px;
+        height: 500px;
+        margin-top: 30px;
+        position: absolute;
+        opacity: 0;
+        display: block;
+        visibility: hidden;
+        transition: opacity 0.1;
+
+    }
+    .box22:hover .box22-overlay{
+        opacity: 1;
+        visibility: visible;
+        transition: 1s;
+        transform: scaleX(1);
+    }
+    .box22-overlay  ul li{
+        width: 40px;
+        height: 40px;
+        color: white;
+        text-align: center;
+        background-color:rgb(109, 67, 53) ;
+        display: grid;
+         padding-top: 10px; 
+        display:inline-block ;
+        margin:auto;
+     }  
+     .box22-overlay  ul{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+        transform: translate(-50%,-50%);
+     }
+     /* -------------------------------------- */
+     .box33-overlay{
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.1;
+
+    }
+    .box33:hover .box33-overlay{
+        opacity: 1;
+        visibility: visible;
+        transition: 1s;
+        transform: scaleX(1);
+    }
+    .box33-overlay  ul li{
+        width: 40px;
+        height: 40px;
+        color: white;
+        text-align: center;
+        background-color:rgb(109, 67, 53) ;
+        display: grid;
+         padding-top: 10px; 
+        display:inline-block 
+     }  
+     .box33-overlay  ul{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+        transform: translate(-50%,-50%);
+     }
+
+/* -------------------------------------------------------------------------------------- */
+.box111-overlay{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1;
+
+}
+.box111:hover .box111-overlay{
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+    transform: scaleX(1);
+}
+.box111-overlay  ul li{
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-color:rgb(109, 67, 53) ;
+    display: grid;
+     padding-top: 10px; 
+    display:inline-block 
+ }  
+ .box111-overlay  ul{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+ }
+/* -------------------------------------------------------------------------------- */
+.box222-overlay{
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    position: absolute;
+    opacity: 0;
+    display: block;
+    visibility: hidden;
+    transition: opacity 0.1;
+
+}
+.box222:hover .box222-overlay{
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+    transform: scaleX(1);
+}
+.box222-overlay  ul li{
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-color:rgb(109, 67, 53) ;
+    display: grid;
+     padding-top: 10px; 
+    display:inline-block ;
+    margin:auto;
+ }  
+ .box222-overlay  ul{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+ }
+/* ------------------------------------------------------------------ */
+.box333-overlay{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1;
+
+}
+.box333:hover .box333-overlay{
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+    transform: scaleX(1);
+}
+.box333-overlay  ul li{
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-color:rgb(109, 67, 53) ;
+    display: grid;
+     padding-top: 10px; 
+    display:inline-block 
+ }  
+ .box333-overlay  ul{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+ }
+/* ---------------------------------------------------------- */
+    .parent2{
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    .prod1{
+        font-size: 13px;
+    }
+    .prod2{
+        font-size: 13px;
+    }
+    .prod3{
+        font-size: 13px;
+    }
+    .angle1{
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        background-color: brown;
+        color: white;
+        text-align: center;
+        padding-top: 2px;
+        display: block;
+        margin-left: 70px;
+        margin-bottom: 15px;
+        position: absolute;
+        visibility: hidden; 
+        opacity: 0;
+         transition: opacity 0.1;
+    }
+    .box1:hover .angle1{
+        opacity: 1;
+        visibility: visible;
+    }
+    .box2:hover .angle1{
+        opacity: 1;
+        visibility: visible;
+    }
+    .box3:hover .angle1{
+        opacity: 1;
+        visibility: visible;
+    }
+    .box4:hover .angle1{
+        opacity: 1;
+        visibility: visible;
+    }
+    /* -------------------------------------------------- */
+    .icons-show{
+        display: flex;
+        margin-left: 150px;
+        /* margin-top: 10px; */
+        width: 80%;
+        
+        
+    }
+    .icon-item{
+        flex: 1;
+        text-align: center;
+        border-right:1px solid rgb(109, 67, 53);
+       
+
+    }
+    
+    .icon-item:last-child{
+        border:0;
+        
+    }
+    .icon-info span{
+        color: gray;
+        font-size: 15px;
+    }
+    .icon-item2{
+        background-image: url(../img/service-icon.png);
+        background-repeat: no-repeat;
+        height: 55px;
+    }
+        
+        
+        
+     .icon-item-1{
+        background-position:center 5px;
+        transition: all .5s;
+    }
+    .icon-item:hover .icon-item-1{
+        background-position: center -86px;
+    }
+    .icon-item-2{
+        background-position: center -180px;
+        transition: all .5s;
+    }
+    .icon-item:hover .icon-item-2{
+        background-position: center -273px;
+    }
+    .icon-item-3{
+        background-position: center -366px;
+        transition: all .5s;
+    }
+    .icon-item:hover .icon-item-3{
+        background-position: center -455px;
+    }
+    .icon-item-4{
+        background-position: center -549px;
+        transition: all .5s;
+    }
+    .icon-item:hover .icon-item-4{
+        background-position: center -639px;
+    }
+    .icon-item-5{
+        background-position: center -734px;
+        transition: all .5s;
+    }
+    .icon-item:hover .icon-item-5{
+        background-position: center -826px;
+    }
+    hr{
+        width: 80%;
+        margin-left: 130px;
+        margin-top: 50px;
+    } 
+    /* ------------------------------- */
+    .star1{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star2{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star3{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star4{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star5{
+        
+        padding-top: 460px;
+        
+    }
+    /* ---------------------------- */
+    .star11{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star22{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star33{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star44{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star55{
+        
+        padding-top: 460px;
+        
+    }
+    /* ------------------------------- */
+    .star111{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star222{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star333{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star444{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star555{
+        
+        padding-top: 460px;
+        
+    }
+    /* -------------------------------------------------------------------------------------------------------------- */
+    .quote{
+        font-size: 35px;
+        color: rgb(109, 67, 53);
+    }
+    /* ------------------------------------------------------ */
+    .box111{
+        width: 400px;
+        height: 450px;
+        background-image: url(../img/c6b33c11-28f1-4137-ad3d-8f5f79805d29.jpg);
+        background-size: cover;
+        float: left;
+        margin-top: 100px;
+    }
+    .box222{
+        width: 400px;
+        height: 450px;
+        background-image: url(../img/1670a57b-2301-497a-bd36-bc98cfca4d20.jpg);
+        background-size: cover;
+        float: left;
+        margin:0px 45px;
+        margin-top: 100px;
+    }
+    .box333{
+        width: 400px;
+        height: 450px;
+        background-image: url(../img/7488f4d7-9b2c-48f8-b8d9-5d57244cdded.jpg);
+        background-size: cover;
+        float: left;
+        margin-top: 100px;
+        
+    }
+    .parent-copy{
+        margin-left: 120px;
+        margin-top: 350px;
+    }
+    .prod4{
+        font-size: 13px;
+    }
+    .prod5{
+        font-size: 13px;
+    }
+    .prod6{
+        font-size: 13px;
+    }
+    /* ------------------------------- */
+    .star100{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star200{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star300{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star400{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star500{
+        
+        padding-top: 460px;
+        
+    }
+    /* ---------------------------- */
+    .star110{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star220{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star330{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star440{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star550{
+        
+        padding-top: 460px;
+        
+    }
+    /* ------------------------------- */
+    .star11100{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star22200{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star33300{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star44400{
+        color: yellow;
+        padding-top: 460px;
+    }
+    .star55500{
+        padding-top: 460px;
+    }
